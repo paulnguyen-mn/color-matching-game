@@ -14,10 +14,17 @@ function shuffle(array) {
 
 
 export const getRandomColorPairs = (count) => {
-  const colorList = randomColor({
-    count,
-    luminosity: 'dark',
-  });
+  const hueList = ['red', 'yellow', 'green', 'blue', 'pink', 'monochrome', 'goldenrod', 'purple']
+  const colorList = [];
+
+  for (let i = 0; i < count; i++) {
+    const color = randomColor({
+      luminosity: 'dark',
+      hue: hueList[i % hueList.length],
+    });
+
+    colorList.push(color);
+  }
 
   // double current color list
   const fullColorList = [...colorList, ...colorList];

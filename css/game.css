@@ -11,7 +11,7 @@
 
 .game {
   max-width: 400px;
-  padding: 15px 10px 10px 10px;
+  padding: 15px 15px 10px 15px;
   margin: 0 auto;
   border-radius: 0.5rem;
 
@@ -38,9 +38,6 @@
   font-size: 1.5rem;
 }
 
-.game__board {
-}
-
 .game__button-wrapper {
   text-align: center;
   margin: 0.5rem 1rem;
@@ -48,10 +45,10 @@
 
 .game__button {
   display: none;
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 2.5rem;
   margin: 0 auto;
   border: 1px solid goldenrod;
-  border-radius: 0.125rem;
+  border-radius: 0.25rem;
 
   color: white;
   background-color: goldenrod;
@@ -72,15 +69,15 @@
 .color-list {
   display: flex;
   flex-flow: row wrap;
-  width: 280px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .color-list > li {
   position: relative;
 
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   border-radius: 4px;
   margin: 5px;
   overflow: hidden;
