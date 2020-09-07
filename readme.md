@@ -2,6 +2,10 @@
 
 A good way to practice javascript by building this simple game.
 
+DEMO: [https://color-matching-game.vercel.app/](https://color-matching-game.vercel.app/)
+
+![color matching game](./images/thumbnail.png)
+
 ## Game rule 
 
 - Has only one mode, one level. You need to find all matched colors in 30s.
