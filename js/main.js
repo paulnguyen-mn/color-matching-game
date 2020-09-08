@@ -52,6 +52,7 @@ const main = () => {
     matchCount = 0;
 
     timerElement.textContent = `${GAME_TIME}s`;
+    colorBackground.style.backgroundColor = 'goldenrod';
 
     // Hide play again button
     playAgainButton.style.display = 'none';
@@ -88,6 +89,7 @@ const main = () => {
       || item.classList.contains('active')
       || gameState === GAME_STATE.BLOCKING
       || gameState === GAME_STATE.FINISHED
+      || timer < 0
     ) return;
 
     // Add item to selection

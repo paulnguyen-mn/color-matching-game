@@ -1,7 +1,8 @@
 .color-background {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
 
   padding: 1rem;
   min-height: 100vh;
@@ -107,4 +108,13 @@
 
 .color-list > li:hover {
   background-color: #ddd;
+}
+
+/* ************ */
+/*    FOOTER    */
+/* ************ */
+footer {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
 }
